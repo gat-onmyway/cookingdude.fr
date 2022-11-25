@@ -1,0 +1,30 @@
+{
+  "name": "cookingdude.fr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@angular/material": "^15.0.0",
+    "@ant-design/icons": "^4.8.0",
+    "@chakra-ui/react": "^2.4.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "antd": "^5.0.1",
+    "framer-motion": "^7.6.6",
+    "marked": "^4.2.2",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2"
+  }
+}
