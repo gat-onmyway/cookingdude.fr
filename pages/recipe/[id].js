@@ -35,7 +35,7 @@ const fullRecipe = ({ recipe }) => {
       <br/>
       <div
         dangerouslySetInnerHTML={getMarkdownText(
-          recipe.attributes.ingredients.replace(RegExp('^'), "<label class=\"containerCheck\"><input type=\"checkbox\" class=\"checkmark\"><span class=\"checkmark\"></span>").replace(RegExp('\n'), "</label><label class=\"containerCheck\"><input type=\"checkbox\" class=\"checkmark\"><span class=\"checkmark\"></span>").replace(RegExp('$'), "</label>")
+          recipe.attributes.ingredients
           )}
       ></div>
       <br/>
@@ -43,7 +43,7 @@ const fullRecipe = ({ recipe }) => {
       <br/>
       <div 
         dangerouslySetInnerHTML={getMarkdownText(
-          recipe.attributes.instructions.replace(RegExp('^'), "<label class=\"containerCheck\"><input type=\"checkbox\" class=\"checkmark\"><span class=\"checkmark\"></span>").replace(RegExp('\n'), "</label><label class=\"containerCheck\"><input type=\"checkbox\" class=\"checkmark\"><span class=\"checkmark\"></span>").replace(RegExp('$'), "</label>")
+          recipe.attributes.instructions
         )}
       ></div>
     </div>
