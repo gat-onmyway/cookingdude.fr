@@ -1,6 +1,6 @@
 {
   "name": "cookingdude.fr",
-  "version": "0.1.0",
+  "versionnpmm": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
