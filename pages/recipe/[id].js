@@ -18,8 +18,8 @@ const fullRecipe = ({ recipe }) => {
   <div>
   <div className="header">
     <div><a href={`http://api.cookingdude.fr/admin/auth/login`}><h3  href="/" className="iconlogin">{<UserOutlined /> }</h3></a></div> 
-    <h3><a href={`http://localhos:3000`}>Cooking Dude</a></h3>
-    <div><a href={`http://localhos:3000`}><h3 className="iconlogin">{<MenuOutlined /> }</h3></a></div>
+    <h3><a href={`https://cookingdude-fr.vercel.app`}>Cooking Dude</a></h3>
+    <div><a href={`https://cookingdude-fr.vercel.app`}><h3 className="iconlogin">{<MenuOutlined /> }</h3></a></div>
   </div>
     <div className="fullrecipe-card">
       <h1 className="recipe-name">{recipe.attributes.name}
