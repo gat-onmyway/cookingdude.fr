@@ -11,7 +11,7 @@ export default function Home({ recipes, categories }) {
   return (
     <div>
       <Head>
-        <title>Cooking Dude !</title>
+        <title>Cooking Dude</title>
       </Head>
       <Header categories={categories} filter={filter} setFilter={setFilter} />
       <div id="recipe-container">

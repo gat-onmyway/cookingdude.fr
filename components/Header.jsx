@@ -1,12 +1,14 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { MenuOutlined, UserOutlined } from '@ant-design/icons';
+import { Image } from 'antd';
 
 const App = ({setFilter, categories}) => (
   <div className="header">
     <div><a href={`http://api.cookingdude.fr/admin/auth/login`}><h3  href="/" className="iconlogin">{<UserOutlined /> }</h3></a></div>
        
-        <h3>Cooking Dude</h3>
+    <h3> <a href={`../`}><img width={80} src="http://cookingdude.fr/images/black-dude.png"/></a></h3>
+  
   <Menu mode="horizontal" defaultSelectedKeys={['mail']}>
     <Menu.SubMenu className="menu" key="SubMenu" title="" icon={<MenuOutlined />}>
       <Menu.Item key="two" onClick={() => {setFilter(null)}}>
